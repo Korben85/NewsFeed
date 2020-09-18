@@ -1,0 +1,13 @@
+{
+  "name": "newsfeed",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "browserify Main.js > bundle.js"
+  },
+  "author": "Korben",
+  "license": "ISC",
+  "dependencies": {}
+}

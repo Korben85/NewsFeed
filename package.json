@@ -1,13 +1,24 @@
 {
   "name": "newsfeed",
   "version": "1.0.0",
-  "description": "",
   "main": "Main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "browserify Main.js > bundle.js"
   },
   "author": "Korben",
-  "license": "ISC",
-  "dependencies": {}
+  "license": "MIT",
+  "dependencies": {
+    "follow-redirects": "^1.10.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Korben85/NewsFeed.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Korben85/NewsFeed/issues"
+  },
+  "homepage": "https://github.com/Korben85/NewsFeed#readme",
+  "description": ""
 }

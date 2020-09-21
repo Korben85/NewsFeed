@@ -3,7 +3,6 @@
 console.log("Start Feed reading ...");
 
 var https = require("follow-redirects").https;
-var fs = require("fs");
 
 var options = {
   method: "GET",
@@ -22,9 +21,9 @@ var req = https.request(options, function (res) {
 
   res.on("end", function (chunk) {
     var body = Buffer.concat(chunks);
-    //console.log(body.toString());
-    let para = document.createElement("P"); // Create a <p> element
-    let t = document.createTextNode(body.toString());
+    console.log(body.toString());
+    var para = document.createElement("P"); // Create a <p> element
+    var t = document.createTextNode(body.toString());
     para.appendChild(t);
     document.body.appendChild(para);
   });

@@ -9,9 +9,8 @@
   "author": "Korben",
   "license": "MIT",
   "dependencies": {
-    "follow-redirects": "^1.10.0"
+    "follow-redirects": "^1.14.7"
   },
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Korben85/NewsFeed.git"

@@ -9,7 +9,7 @@
   "author": "Korben",
   "license": "MIT",
   "dependencies": {
-    "follow-redirects": "^1.14.8"
+    "follow-redirects": "^1.15.5"
   },
   "repository": {
     "type": "git",
